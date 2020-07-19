@@ -10,49 +10,119 @@
 <body>
     <!-- navbar section -->
 
-    <div class="container  " id="navbar">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#book">Books<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#course">Courses</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#other">Others</a>
-                </li> 
-                <li class="nav-item">
-                    <a class="nav-link" href="#blog">Blog</a>
-                  </li> 
-                  <li class="nav-item">
-                    <button class="btn btn-success">sign in</button>
-                  </li> 
-                
-              </ul>
-            </div>
-          </nav>
-          <div class="row">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                      <img src="..." class="d-block w-100" alt="...">
-                  </div>
-                  </div>
-                  </div>
+   <div class=" " id="home">
+    <nav class="navbar navbar-expand-lg navbar-light bg-green">
+      <a class="navbar-brand" href="#"><img class="img-fluid w-25" src="./img/ICON/Logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#course">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#other">Others</a>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-success">Sign In</button>
+          </li>  
+        </ul>
+      </div>
+    </nav>
+   </div>
+
+    <!-- carousel -->
+    <div class=" bg-green ">
+      <div class="row">
+      
+        <div class="col-md-6">
+          <div class="  text-area">
+            <h6>Are you ready to Learn?</h6>
+
+            <h2>Learn With fun <br>
+              on <span> any schedule</span></h2>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
+              <button class="btn btn-success">Get Started</button>
           </div>
+          
+
+        </div>
+        <div class="col-md-6">
+          <div class=" images-1 d-flex align-self-center">
+            <img class="img-fluid w-100" src="./img/Photos/Illustration.png" alt="">
+          </div>
+        </div>
+      </div>
     </div>
+
+    <!-- books area -->
+
+    <div class="container books" id="book">
+
+      <div class="row ">
+        <div class="d-flex justify-content-between ">
+        <div class="col-md-3 books-area">
+          <div class="d-flex justify-content-center images">
+            <img class="w-25 img-fluid" src="./img/ICON/book.png" alt="">
+          </div>
+          <div class="text-center">
+            <h5>1500+ Topic</h5>
+            <p>Learn Anythings</p>
+          </div>
+        
+        </div>
+        <div class="col-md-3 books-area-2">
+          <div class="d-flex justify-content-center images">
+            <img class="w-25 img-fluid " src="./img/ICON/Student.png" alt="">
+          </div>
+          <div class="text-center">
+            <h5>1500+ Topic</h5>
+            <p>Learn Anythings</p>
+          </div>
+        </div>
+        <div class="col-md-3 books-area">
+          <div class="d-flex justify-content-center images">
+            <img class="w-25 img-fluid" src="./img/ICON/Students.png" alt="">
+          </div> 
+          <div class="text-center">
+            <h5>1500+ Topic</h5>
+            <p>Learn Anythings</p>
+          </div>
+        </div>
+        <div class="col-md-3 books-area ">
+          <div class="d-flex justify-content-center images">
+            <img class="w-25 img-fluid" src="./img/ICON/Test.png" alt="">
+          </div>
+          <div class="text-center">  
+            <h5>1500+ Topic</h5>
+            <p>Learn Anythings</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
 
     <!-- courses area -->
 
     <div class="container courses" id="course">
-        <h3 class="text-center">Online Courses</h3>
+      <!-- title -->
+      <div>
+        <h2 class="text-center">Online Courses</h2>
+      </div>
+
+      <!-- course -->
+       
         <div class="card-deck">
+
+
             <div class="card">
               <img src="./img/Photos/Morder psyc.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -60,10 +130,13 @@
                 <p class="card-text">Designation</p>
                 <button class="btn btn-success">Buy Course</button>
               </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+              <div class="card-footer d-flex justify-content-between">
+                <small class="text-muted">Start 20  April, 2021</small>
+                <small class="text-muted">60 seatso</small>
               </div>
             </div>
+
+
             <div class="card">
               <img src="./img/Photos/Morder pyschology.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -71,10 +144,13 @@
                 <p class="card-text">Designation</p>
                 <button class="btn btn-success">Buy Course</button>
               </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+              <div class="card-footer d-flex justify-content-between">
+                <small class="text-muted">Start 20  April, 2021</small>
+                <small class="text-muted">60 seats</small>
               </div>
             </div>
+
+
             <div class="card">
               <img src="./img/Photos/Morder pychons.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -82,32 +158,119 @@
                 <p class="card-text">Designation</p>
                 <button class="btn btn-success">Buy Course</button>
               </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+              <div class="card-footer d-flex justify-content-between">
+                  <small class="text-muted">Start 20  April, 2021</small>
+                  <small class="text-muted">60 seatso</small>
               </div>
-            </div>
-          </div>
+             </div>
+
+
             
-    </div>
+          </div>
+        </div>
 
 
     <!-- testimonial section -->
-    <div class="container">
-        <h3 class="text-center">Testimonial</h3>
+
+    <div class="container" id="blog">
+      <div>
+        <h2 class="text-center">Testimonial</h2>
+      </div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 d-flex justify-content-center">
                 <img class="img-fluid w-50 " src="./img/Photos/Man.png" alt="">
             </div>
-            <div class="col-md-8">
-                <p class="d-flex align-items-center">There are many variations of passages of Lorem Ipsum available, but the
-                    majority have suffered alteration in some form, by injected humour, 
-                   or randomised words which don't look even slightly believable.</p>
+            <div class="col-md-8 d-flex align-items-center">
+                  <p class="lead">There are many variations of passages of Lorem Ipsum available,  but the
+                      majority have suffered alteration in some form, by injected humour, 
+                    or randomised words which don't look even slightly believable majority have suffered alteration in some form, by injected humour,.</p>
             </div>
         </div>
     </div>
+
+
+    <!-- contact section -->
+
+    <div class="container " id="sing in">
+      <!-- title area -->
+      <div>
+        <h2 class="text-center">Contact Us</h2>
+      </div>
+      <!-- form -->
+        <form class="contact" action="">
+        <div class="form-items">
+          <label for="">Name*</label>
+          <input class="form-control" class="input"  placeholder="Enter your name" type="text">
+        </div>
+        <div class="form-items">
+          <label for="">Email*</label>
+          <input class="form-control" class="input"  placeholder="jhon@gmail.com" type="email">
+        </div>
+        <div class="form-items">
+          <label for="">Mobile*</label>
+          <input class="form-control" class="input"  placeholder="+88010000000" type="number">
+        </div>
+        <div class="form-items">
+          <label for="">Massage*</label>
+          <textarea class="form-control input-massage" placeholder="Type your massage....." name="text" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <button class="btn btn-success  submit">Submit</button>
+        </div>
+        </form>
+    </div>
+    
+    <!-- footer section -->
     
 
+    <div class=" footer" id="other">
+      <div class="row footer-area overflow-auto">
+        <div class="col-md-3">
+          <div class="half-width">
+            <p>Millions of people of all ages and from around
+              the world are improving their lives with us</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="half-width">
+            <h4>Course</h4>
+            <p>Graphic Design</p>
+            <p>Web Design</p>
+            <p>Business</p>
+            <p>Marketing</p>
+            <p>Engineering</p>
+          </div>
+           
+        </div>
+        <div class="col-md-3">
+          <div class="half-width">
+            <h4>Terms</h4>
+          <p>Graphic Design</p>
+          <p>Web Design</p>
+          <p>Business</p>
+          <p>Marketing</p>
+          <p>Engineering</p>
+          </div>
+          
+        </div>
+        <div class="col-md-3">
+          <div class="half-width">
+            <h4>Useful Links</h4>
+          <p>Graphic Design</p>
+          <p>Web Design</p>
+          <p>Business</p>
+          <p>Marketing</p>
+          <p>Engineering</p> 
+          </div> 
+        </div>
+      </div> 
+    </div>
 
+    <!-- main footer -->
+    <div class="main-footer text-center ">
+      <p>copyright &copy: 2020, All rights reserve by Mahadi Hasan</p>
+    </div>
+  
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
