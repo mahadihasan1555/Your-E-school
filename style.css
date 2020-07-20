@@ -11,6 +11,7 @@ span{
     background-color:  #F0FFF0;
 }
 .container {
+    margin-top: 50px;
    margin-bottom: 60px;
 }
 .text-center{
@@ -29,7 +30,12 @@ span{
 }
 .btn{
     border-radius: 33px;
+    
 }
+.about{
+    margin-top: 40px;
+}
+
 
 .icons{
     width: 66px;
